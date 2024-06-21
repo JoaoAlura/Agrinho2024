@@ -21,6 +21,10 @@ img{
     padding: 1em;
     font-size: 18px;
     align-items: center;
+    border-bottom: 4px solid aliceblue;
+    border-left: 2px solid aliceblue;
+    border-right: 2px solid aliceblue;
+    border-top: none;
     
 }
 .botoes{
@@ -32,5 +36,12 @@ img{
     }
     .botao:first-child{
         border-radius: 40px 0 0 0;
+    }
+    .botao:last-of-type {
+        border-radius: 0 40px 0 0;
+        }
+        .botao.ativo{
+        background-color: rgb(134, 82, 45);
+        border-bottom: 4px solid aliceblue;
     }
 }
