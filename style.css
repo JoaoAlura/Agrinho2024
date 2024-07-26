@@ -45,3 +45,7 @@ img{
         border-bottom: 4px solid  rgb(196, 125, 75);
     }
 }
+.titulo-principal {
+    text-align: left;
+    width: 100%;
+    font-size: 32px;}
