@@ -40,10 +40,7 @@ img{
     .botao:last-of-type {
         border-radius: 0 40px 0 0;
         }
-        .botao.ativo{
-        background-color: rgb(196, 125, 75);
-        border-bottom: 4px solid  rgb(196, 125, 75);
-    }
+     
 }
 .titulo-principal {
     text-align: left;
